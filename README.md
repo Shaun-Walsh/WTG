@@ -8,17 +8,17 @@ The schema is designed to manage information about members, events, games, venue
 
 The database contains the following tables:
 
-- **Members**: Stores information about members of the boardgame group, including personal details, contact information, and a relationship to a supervisor.
+- **Members**: Stores information about members of the boardgame group, including personal details, and contact information.
 - **Guest**: Stores information about guests associated with members.
 - **Venue**: Information about the venues where events are hosted.
 - **Sponsor**: Information about sponsors for events.
-- **Event**: Stores details about the events, including the date, type, and associated sponsors and venues.
-- **Game**: Details about the games available within the group, including attributes like cost, complexity, and player count.
-- **BoardGame**: Details about specific board games, including subgenres.
-- **CCG**: Details about collectible card games, including their brands.
-- **RPG**: Details about role-playing games, including systems.
-- **NumberOfAttendees**: Tracks attendance of members and guests at specific events.
-- **Available**: Stores information about which games are available at specific events.
+- **Event**: Stores details about the events.
+- **Game**: Details about the games available within the group.
+- **BoardGame**: Details about specific board games.
+- **CCG**: Details about collectible card games.
+- **RPG**: Details about role-playing games.
+- **NumberOfAttendees**: Tracks attendance of members and guests at events.
+- **Available**: Stores information about which games are available at events.
 
 ### Key Features
 
